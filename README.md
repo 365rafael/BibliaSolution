@@ -8,11 +8,17 @@
 
 ## 🏗️ Estrutura do Projeto
 
+
 BibliaApp/
+
 ├── Biblia.API/ # API REST com Entity Framework Core e SQLite
+
 ├── Biblia.Blazor/ # Interface Web em Blazor Server
+
 ├── Biblia.Core/ # Entidades, DTOs e contratos compartilhados
+
 ├── Biblia.Data/ # Contexto e repositórios (EF Core)
+
 └── Biblia.Service/ # Serviços e lógica de negócio
 
 ---
@@ -60,7 +66,7 @@ GET /api/tema/{palavra}
 ## 🔧 Como Executar Localmente
 
 ### 1️⃣ Clonar o repositório
-```bash
+
 git clone https://github.com/rafaelarantes/BibliaSolution.git
 cd BibliaApp
 
@@ -73,12 +79,14 @@ cd ../Biblia.Blazor
 dotnet run
 A aplicação Blazor rodará em: https://localhost:7173
 
-🧩 Banco de Dados
+---
+
+## 🧩 Banco de Dados
 
 O projeto utiliza SQLite para simplicidade e portabilidade.
 As tabelas são criadas automaticamente via migrations.
 
-🧠 Arquitetura
+## 🧠 Arquitetura
 
 O projeto segue boas práticas de arquitetura em camadas:
 Biblia.Core contém as entidades e DTOs.
@@ -87,14 +95,17 @@ Biblia.Data faz a persistência com EF Core.
 Biblia.API expõe os endpoints.
 Biblia.Blazor consome os endpoints da API.
 
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 
 Rafael Arantes da Silva
+
 📍 Prata, MG — Brasil
+
 💼 [LinkedIn](https://www.linkedin.com/in/rafaelarantes365/)
+
 📧 rafael.imu@gmail.com
 
-🌟 Objetivo do Projeto
+## 🌟 Objetivo do Projeto
 
 O BibliaApp nasceu como um estudo prático de integração entre API .NET 8 + Blazor Server, aplicando padrões de arquitetura, caching, consumo de dados e interface amigável — tudo em C# full stack.
 
