@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliaAPI", "BibliaAPI.csproj", "{AE5B5B95-87F8-4F5B-B183-7F719D8A7914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerarBibliaJson", "..\GerarBibliaJson\GerarBibliaJson.csproj", "{5E13E2E4-16B4-4622-AFE2-D4FEA480EA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblia.Core", "..\Biblia.Core\Biblia.Core.csproj", "{5F3B7631-F596-4816-91A6-DE63031A3E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblia.Data", "..\Biblia.Data\Biblia.Data.csproj", "{B8C4C554-078B-471E-90DE-2AEB2889B7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblia.Service", "..\Biblia.Service\Biblia.Service.csproj", "{5668F4FA-D5E2-44F4-8BD5-EDCD604246E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblia.Blazor", "..\Biblia.Blazor\Biblia.Blazor.csproj", "{D2DEAF15-3CAC-46A2-AED7-70B5049C7540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5B5B95-87F8-4F5B-B183-7F719D8A7914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5B5B95-87F8-4F5B-B183-7F719D8A7914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5B5B95-87F8-4F5B-B183-7F719D8A7914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5B5B95-87F8-4F5B-B183-7F719D8A7914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E13E2E4-16B4-4622-AFE2-D4FEA480EA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E13E2E4-16B4-4622-AFE2-D4FEA480EA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E13E2E4-16B4-4622-AFE2-D4FEA480EA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E13E2E4-16B4-4622-AFE2-D4FEA480EA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3B7631-F596-4816-91A6-DE63031A3E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3B7631-F596-4816-91A6-DE63031A3E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3B7631-F596-4816-91A6-DE63031A3E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3B7631-F596-4816-91A6-DE63031A3E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C4C554-078B-471E-90DE-2AEB2889B7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C4C554-078B-471E-90DE-2AEB2889B7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C4C554-078B-471E-90DE-2AEB2889B7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C4C554-078B-471E-90DE-2AEB2889B7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5668F4FA-D5E2-44F4-8BD5-EDCD604246E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5668F4FA-D5E2-44F4-8BD5-EDCD604246E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5668F4FA-D5E2-44F4-8BD5-EDCD604246E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5668F4FA-D5E2-44F4-8BD5-EDCD604246E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DEAF15-3CAC-46A2-AED7-70B5049C7540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DEAF15-3CAC-46A2-AED7-70B5049C7540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DEAF15-3CAC-46A2-AED7-70B5049C7540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DEAF15-3CAC-46A2-AED7-70B5049C7540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB7EADDC-6EB7-49F9-9D04-401F3CC4921B}
+	EndGlobalSection
+EndGlobal
